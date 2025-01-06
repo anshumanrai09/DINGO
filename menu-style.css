@@ -1,0 +1,187 @@
+/* General Styles */
+body {
+    font-family: 'Play', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #ff8c00;
+    color: white;
+    height: 60px;
+}
+
+.navbar .logo img {
+    height: 80px;
+}
+
+.navbar .name {
+    margin-left: 10px;
+}
+
+.navbar .name h1 {
+    font-size: 55px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.navbar .nav-links a:hover {
+    color: #d35400;
+}
+
+.profile-picture img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    color: white;
+}
+
+/* Sign In Styles */
+.sign-in {
+    margin-right: 30px; /* Align Sign In to the right */
+}
+
+.sign-in-link {
+    color: white;
+    text-decoration: none;
+
+    font-size: 18px;
+    margin-left: 20px;
+    /* padding: 10px 15px; */
+    background-color: #ff8c00;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sign-in-link:hover {
+    /* background-color: #d35400; */
+    color: #d35400;
+}
+
+/* Search Bar Styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.search-input {
+    padding: 8px 15px;
+    border: 2px solid #ff8c00;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    font-size: 16px;
+    width: 300px;
+}
+
+.search-button {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-right: 150px;
+}
+
+.search-button:hover {
+    background-color: #e67e22;
+}
+
+/* Menu Section */
+.menu-section {
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f8f8;
+}
+
+.menu-title {
+    font-size: 2.5em;
+    color: #ff8c00;
+    margin-bottom: 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.menu-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 1.2em;
+    color: #888;
+}
+
+.add-to-cart {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #e67e22;
+}
+
+/* Footer */
+.footer {
+    background-color: #ff8c00;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-row {
+    margin: 5px 0;
+}
+
+.footer-icon {
+    font-size: 1.5em;
+    margin: 0 10px;
+    color: white;
+}

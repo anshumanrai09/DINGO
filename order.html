@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Dingo</title>
+    <link rel="stylesheet" type="text/css" href="order-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="DINGO.png" alt="Dingo Logo" class="logo-img">
+        </div>
+    
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search for food or restaurants..." class="search-input">
+            <button class="search-button">🔍</button>
+        </div>
+    
+        <div class="nav-links">
+			<a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="cart.html">Cart</a> 
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    
+        <div class="profile-picture">
+            <img src="https://img.icons8.com/ios-filled/50/user-male-circle.png" alt="Profile">
+        </div>
+        
+        <!-- Sign In Option -->
+        <div class="sign-in">
+            <a href="login.html" class="sign-in-link">Sign In</a>
+        </div>
+    </div>
+
+    <!-- Order Form Section -->
+    <div class="order-section">
+        <h1 class="order-title">Place Your Order</h1>
+        <form class="order-form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="address">Shipping Address</label>
+            <textarea id="address" name="address" rows="4" placeholder="Enter your delivery address" required></textarea>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+            <button type="submit" class="order-button">Place Order</button>
+			
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="footer-row">
+            <a href="#" class="footer-icon"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="footer-icon"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="footer-icon"><i class="fa fa-youtube"></i></a>
+            <a href="#" class="footer-icon"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="footer-row">
+            © 2025 Dingo - All Rights Reserved || Designed By: ANSHUMAN RAI
+        </div>
+    </div>
+
+
+</body>
+</html>

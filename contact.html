@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Dingo</title>
+    <link rel="stylesheet" type="text/css" href="contact-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="DINGO.png" alt="Dingo Logo" class="logo-img">
+        </div>
+    
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input 
+                type="text" 
+                placeholder="Search for food or restaurants..." 
+                class="search-input"
+            >
+            <button class="search-button">🔍</button>
+        </div>
+    
+        <div class="nav-links">
+			<a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="cart.html">Cart</a> 
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    
+        <div class="profile-picture">
+            <img src="https://img.icons8.com/ios-filled/50/user-male-circle.png" alt="Profile">
+        </div>
+        
+        <!-- Sign In Option -->
+        <div class="sign-in">
+            <a href="login.html" class="sign-in-link">Sign In</a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section">
+        <h1 class="contact-title">Get in Touch</h1>
+        <p class="contact-description">
+            We would love to hear from you! Whether you have a question, feedback, or need assistance, feel free to reach out to us using the form below or through our contact details.
+        </p>
+
+        <div class="contact-form">
+            <form action="submit-contact.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+
+        <div class="contact-details">
+            <h2>Contact Details</h2>
+            <p><i class="fa fa-phone"></i> Phone: +91 12345 67890</p>
+            <p><i class="fa fa-envelope"></i> Email: support@dingo.com</p>
+            <p><i class="fa fa-map-marker"></i> Address: Dingo HQ, Lai, India</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-row">
+            <a href="#" class="footer-icon"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="footer-icon"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="footer-icon"><i class="fa fa-youtube"></i></a>
+            <a href="#" class="footer-icon"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="footer-row">
+            © 2025 Dingo - All Rights Reserved || Designed By: ANSHUMAN RAI
+        </div>
+    </div>
+</body>
+</html>

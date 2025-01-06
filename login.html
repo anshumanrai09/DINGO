@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Signup - Dingo</title>
+    <link rel="stylesheet" type="text/css" href="login style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="navbar">
+		<div class="logo">
+			<img src="DINGO.png" alt="Dingo Logo" class="logo-img">
+		</div>
+	
+		<!-- Search Bar -->
+		<div class="search-bar">
+			<input 
+				type="text" 
+				placeholder="Search for food or restaurants..." 
+				class="search-input"
+			>
+			<button class="search-button">🔍</button>
+		</div>
+	
+		<div class="nav-links">
+			<a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="cart.html">Cart</a> 
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+	
+		<div class="profile-picture">
+			<img src="https://img.icons8.com/ios-filled/50/user-male-circle.png" alt="Profile">
+			<!-- <img width="50" height="50" src="" alt="user-male-circle"/> -->
+		</div>
+		
+	
+		<!-- Sign In Option -->
+		<div class="sign-in">
+			<a href="login.html" class="sign-in-link">Sign In</a>
+		</div>
+	</div>
+	
+    <!-- Login / Signup Section -->
+    <div class="auth-container">
+        <div class="auth-box">
+            <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Welcome to Dingo</h2>
+            
+            <!-- Toggle between Login and Signup Forms -->
+            <div class="form-toggle">
+                <button class="tab-button active" id="loginTab" onclick="toggleForm('login')">Login</button>
+                <button class="tab-button" id="signupTab" onclick="toggleForm('signup')">Signup</button>
+            </div>
+
+            <!-- Login Form -->
+            <form id="loginForm" class="auth-form" method="POST">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="password" name="password" placeholder="Enter your password" required>
+                <button type="submit">Login</button>
+            </form>
+
+            <!-- Signup Form -->
+            <form id="signupForm" class="auth-form" method="POST" style="display:none;">
+                <input type="text" name="username" placeholder="Enter your username" required>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="password" name="password" placeholder="Enter your password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+
+            <p>Or sign in with:</p>
+            <div class="social-login">
+                <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fa fa-google"></i></a>
+                <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <p class="redirect-text">
+                Already have an account? <a href="login.html" class="redirect-link">Login</a>
+            </p>
+        </div>
+    </div>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+
+        <!-- Footer Section -->
+        <div class="footer">
+            
+            <!-- Social Media Links -->
+            <div class="footer-row">
+                <a href="#" class="footer-icon"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="footer-icon"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="footer-icon"><i class="fa fa-youtube"></i></a>
+                <a href="#" class="footer-icon"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-row">
+                © 2025 Dingo - All Rights Reserved|| Designed By: ANSHUMAN RAI
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
