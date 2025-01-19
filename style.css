@@ -1,0 +1,276 @@
+body {
+    font-family: 'Play', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #ff8c00;
+    color: white;
+    height: 60px;
+}
+
+.navbar .logo img {
+    height: 80px;
+}
+
+.navbar .name {
+    margin-left: 10px;
+}
+
+.navbar .name h1 {
+    font-size: 55px;
+    color: white;
+   
+}
+
+.navbar .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.navbar .nav-links a:hover {
+    color: #d35400;
+}
+
+.profile-picture img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    color: white;
+}
+
+/* Sign In Styles */
+.sign-in {
+    margin-right: 30px; /* Align Sign In to the right */
+}
+
+.sign-in-link {
+    color: white;
+    text-decoration: none;
+
+    font-size: 18px;
+    margin-left: 20px;
+    /* padding: 10px 15px; */
+    background-color: #ff8c00;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sign-in-link:hover {
+    /* background-color: #d35400; */
+    color: #d35400;
+}
+
+/* Search Bar Styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.search-input {
+    padding: 8px 15px;
+    border: 2px solid #ff8c00;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    font-size: 16px;
+    width: 300px;
+}
+
+.search-button {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-right: 150px;
+}
+
+.search-button:hover {
+    background-color: #e67e22;
+}
+
+.hero {
+    text-align: center;
+    background-color: #ff8c00;
+    color: white;
+    padding: 10px 20px;
+	margin-top: 10px;
+}
+.offer-box{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    margin-top: 0px ;
+	
+}
+.offer-photo {
+	  
+	
+	height: 356px;
+	object-fit: cover;
+	  border-radius: 10px;
+	  margin-right: 10px;
+	  align-items: left;
+	  object-fit: cover;
+	  box-shadow: #333;
+	  align-items: center;
+
+	}
+		/* .offer-photo:hover {
+			opacity: 0.7;
+			transform: scale(1.05);
+		} */
+.hero h2 {
+    font-size: 43px;
+    margin-bottom: 20px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: white;
+    color: #ff8c00;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #ff8c00;
+    color: white;
+}
+
+
+.food-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    height: 400px;
+}
+
+.food-item {
+    text-align: center;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.food-item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.food-name {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.food-price {
+    font-size: 20px;
+    color: #ff8c00;
+    margin: 10px 0;
+}
+
+.food-item button {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.food-item button:hover {
+    background-color: white;
+    color: #ff8c00;
+}
+
+.about {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    
+}
+
+.about h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+/* 
+.footer {
+    background-color: rgb(240, 240, 245);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    font-size: 14px;
+} */
+
+.footer {
+    background: #ff8c00;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* Footer Row Styling */
+.footer-row {
+    width: 100%;
+    margin: 1% 0;
+    padding: 0.6% 0;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+}
+
+/* Social Media Icons */
+.footer-icon {
+    font-size: 2em;
+    margin: 0% 1%;
+    color: #fff;
+}
+
+.footer-icon:hover {
+    color: #c7c7c7;
+}
+
